@@ -1,5 +1,5 @@
 # Selective KD
-Implementation for our AAAI paper "Selective Knowledge Distillation for Non-Autoregressive Neural Machine Translation".
+Implementation for our AAAI-23 paper "Selective Knowledge Distillation for Non-Autoregressive Neural Machine Translation".
 
 ### Preparation
 Train an autoregressive Transformer according to the instructions in [Fairseq](https://github.com/pytorch/fairseq).

@@ -62,4 +62,14 @@ python3 fairseq_cli/generate.py ${RAW_DATA_DIR} \
     --iter-decode-max-iter 0 --iter-decode-eos-penalty 0 --iter-decode-with-beam 1 \
     --path ${CHECKPOINT_PATH} --quiet
 ```
+### Citation
+Please consider citing our paper if your find our research or this codebase helpful:
+```
+@article{liu2023selective,
+  title={Selective Knowledge Distillation for Non-Autoregressive Neural Machine Translation},
+  author={Liu, Min and Bao, Yu and Zhao, Chengqi and Huang, Shujian},
+  journal={arXiv preprint arXiv:2303.17910},
+  year={2023}
+}
+```
 
